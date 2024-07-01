@@ -67,22 +67,14 @@ set -confirmations off
 set d
 systemshell
 ```
-Remove all existing drives and reservations
+Remove all existing drives and reservations, create 20, 9000MB simulated 15k RPM drives, and reboot
 ```
 cd /sim/dev/,disks
 sudo rm v*
 sudo rm ,reservations
 cd /sim/dev
-```
-Create 20, 9000MB simulated 15k RPM drives
-```
 sudo vsim_makedisks -n 10 -t 36 -a 1
 sudo vsim_makedisks -n 10 -t 36 -a 2
-```
-Additional disk types and sizes can be used, run vsim_makedisks –h to view options.
-
-Reboot the node
-```
 sudo reboot
 ```
 Hit space to interrupt the boot process 
