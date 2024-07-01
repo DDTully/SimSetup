@@ -35,6 +35,7 @@ Set up PuTTY session and save the config.
 ![image](https://github.com/DDTully/SimSetup/assets/165563299/522d8b3a-076a-49a5-9560-ea4fef40d7f1)
 
 Power on the VM, then press the spacebar to get to the VLOADER prompt
+
 ![image](https://github.com/DDTully/SimSetup/assets/165563299/addedbaa-8826-4176-98c6-fd295d6ad6e5)
 
 Connect the previously saved PuTTY session, hit enter a few times to ensure functionality.
@@ -43,13 +44,12 @@ Connect the previously saved PuTTY session, hit enter a few times to ensure func
 
 From this point, we don’t need to worry about the VMware video console, and we can copy/paste to PuTTY.
 
-## Set the primary console type to comconsole, then autoboot
+Set the primary console type to comconsole, then autoboot
 ```
 set console=comconsole,vidconsole
-```
-```
 autoboot
 ```
+
 ## Disk Configuration
 
 Login as admin and set the admin password
