@@ -142,10 +142,9 @@ set adv
 cluster image package get -url http://webserver/package.tgz
 cluster image update -version AppropriateVersion
 ```
-Let it reboot.
 
 ## Complete Configuration
-You should now have a fully functional ONTAP system at your disposal.  
+You should now have a fully functional ONTAP cluster at your disposal.  
 
 Next steps:
 - Install licenses
