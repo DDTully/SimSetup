@@ -148,6 +148,8 @@ You should now have a fully functional ONTAP cluster at your disposal.
 
 Next steps:
 - Install licenses
+- Assign Disks
+- Create aggrs (or auto-provision)
 - Configure anything you want
 - Take a snapshot of the VM (Highly recommended)
 
